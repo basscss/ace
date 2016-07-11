@@ -17,6 +17,10 @@
 
 @import 'basscss-addons/modules/responsive-margin';
 @import 'basscss-addons/modules/responsive-padding';
+@import 'basscss-addons/modules/responsive-layout';
+@import 'basscss-addons/modules/responsive-position';
+@import 'basscss-addons/modules/responsive-typography';
+@import 'basscss-addons/modules/responsive-type-scale';
 
 @import 'basscss-addons/modules/colors';
 @import 'basscss-addons/modules/background-colors';
