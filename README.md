@@ -39,4 +39,12 @@ npm i ace-css
 import aceCss from 'ace-css/css/ace.min.css'
 ```
 
+### CDN
+
+For a simple, zero-configuration option, use a link from [unpkg.com](https://unpkg.com/ace-css/css/ace.min.css).
+
+```html
+<link href="https://unpkg.com/ace-css/css/ace.min.css" rel="stylesheet">
+```
+
 [MIT License](LICENSE.md)
