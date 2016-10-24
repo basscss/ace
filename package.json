@@ -6,7 +6,11 @@
   "scripts": {
     "start": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-calc -u postcss-color-function -u postcss-remove-root -u autoprefixer -o css/ace.css",
     "minify": "postcss css/ace.css -u cssnano -o css/ace.min.css",
-    "prepublish": "npm start && npm run minify"
+    "prepublish": "npm start && npm run minify",
+    "docs": "npm run docs:data && npm run docs:build",
+    "docs:dev": "nodemon --exec 'npm run docs' -e js,jsx",
+    "docs:data": "node docs/build.js",
+    "docs:build": "ejsx docs/components -p docs/data.json > docs/index.html"
   },
   "author": "Brent Jackson",
   "license": "MIT",
@@ -19,6 +23,9 @@
   "devDependencies": {
     "autoprefixer": "^6.3.3",
     "cssnano": "^3.5.2",
+    "ejsx": "^1.0.0-b2",
+    "marked": "^0.3.6",
+    "nodemon": "^1.11.0",
     "postcss-calc": "^5.2.0",
     "postcss-cli": "^2.5.1",
     "postcss-color-function": "^2.0.0",

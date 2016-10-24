@@ -1,0 +1,16 @@
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  viewBox='0 0 64 64'
+  width='256'
+  height='256'>
+  <text
+    x='32'
+    y='32'
+    text-anchor='middle'
+    style='
+      font-size: 48px
+    '>
+    ♠
+  </text>
+</svg>
+
