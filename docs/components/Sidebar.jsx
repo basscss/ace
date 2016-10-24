@@ -9,7 +9,7 @@
       {props.modules.map((m, i) => (
         <li key={i} className='inline-block align-top col-6 sm-block sm-col-12 mb1'>
           <NavItem href={'#' + m.shortname}>
-            {m.shortname}
+            {m.shortname.charAt(0).toUpperCase() + m.shortname.replace(/-/g, ' ').slice(1)}
           </NavItem>
         </li>
       ))}
