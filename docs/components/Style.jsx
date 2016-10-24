@@ -13,32 +13,46 @@ ${props.css}
   font-family: Menlo, monospace;
   font-size: .875rem;
   color: #0074d9;
-  background-color: #eee;
+  background-color: #f6f6f6;
 }
 .Prose pre {
   font-family: Menlo, monospace;
   font-size: .875rem;
   padding: 1rem;
-  background-color: #eee;
+  background-color: #f6f6f6;
 }
 
 .Prose table {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
+
+    /* Hack: clean up readmes */
+    border: 0;
+    background-color: transparent;
 }
-.Prose th {
-  text-align: left;
-  font-weight: bold;
+.Prose thead {
+  background-color: transparent;
 }
 .Prose th, .Prose td {
   padding: .5rem 0;
   line-height: inherit
 }
-.Prose th { vertical-align: bottom }
-.Prose td { vertical-align: top }
+.Prose th {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #f6f6f6;
+  vertical-align: bottom;
+}
+.Prose td {
+  vertical-align: top;
+  border-bottom: 1px solid #f6f6f6;
+}
 
-.bg-gray { background-color: #eee }
+.hover-underline:hover {
+  text-decoration: underline;
+}
+.bg-gray { background-color: #f6f6f6 }
 
 iframe.twitter-share-button {
   float: left;

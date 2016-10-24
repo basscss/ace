@@ -1,4 +1,4 @@
 <a
   {...props}
-  className='h5 p1 bold color-inherit text-decoration-none'
+  className='h6 caps bold p1 color-inherit text-decoration-none'
 />

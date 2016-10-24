@@ -1,6 +1,6 @@
 <nav {...props}>
-  <div className='sm-px2 pt2 pb4 sm-border-right border-silver'>
-    <h2 className='h3 xs-hide'>
+  <div className='sm-px2 pt2 sm-pt4 pb4'>
+    <h2 className='h3 xs-hide mb3'>
       <a href='#' className='color-inherit text-decoration-none'>
         Ace.css
       </a>
@@ -14,7 +14,7 @@
         </li>
       ))}
     </ul>
-    <hr className='my2 border-bottom border-silver' />
+    <hr className='my3 border-bottom border-silver' />
     <ul className='p0 list-style-none mxn1 xs-hide'>
       <li className='mb1'>
         <NavItem href='http://basscss.com'>

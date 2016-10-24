@@ -2,7 +2,7 @@
   <LinkHeading href='#features' children='Features' />
   <ul className='list-style-none p0'>
     {props.features.map((f, i) => (
-      <li key={i} className='sm-h3 bold mb2'>
+      <li key={i} className='mb2'>
         {f}
       </li>
     ))}

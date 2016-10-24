@@ -11,7 +11,7 @@
       },
       {
         href: 'https://npmjs.com/package/ace-css',
-        text: 'npme'
+        text: 'npm'
       },
       {
         href: 'http://jxnblk.com',

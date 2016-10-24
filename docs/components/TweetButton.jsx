@@ -1,6 +1,6 @@
 <div
   {...props}
-  className='inline-block mr1'>
+  className='inline-block mr2'>
   <a
     className='twitter-share-button'
     href={`https://twitter.com/intent/tweet?text=${encodeURI(props.text)}`}
