@@ -1,4 +1,4 @@
-<header className='lg-flex items-center mt4 mb4'>
+<header className='lg-flex items-center mt4 mb4 py4'>
   <div className='flex-auto'>
     <div className='h1 line-height-1 mb2'>
       ♠

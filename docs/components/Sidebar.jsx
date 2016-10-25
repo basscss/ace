@@ -1,5 +1,5 @@
 <nav {...props}>
-  <div className='sm-px2 pt2 sm-pt4 pb4'>
+  <div className='sm-px3 pt2 sm-pt4 pb4'>
     <h2 className='h3 xs-hide mb3'>
       <a href='#' className='color-inherit text-decoration-none'>
         Ace.css
