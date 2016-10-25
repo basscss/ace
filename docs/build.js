@@ -8,6 +8,7 @@ const marked = require('marked')
 const src = fs.readFileSync(path.join(__dirname, '..', 'index.css'), 'utf8')
 const data = require('../package.json')
 data.title = 'Ace.css'
+data.image = 'http://basscss.com/ace/ace.png'
 data.css = fs.readFileSync(path.join(__dirname, '..', 'css/ace.min.css'), 'utf8')
 
 data.modules = src.split('\n')
